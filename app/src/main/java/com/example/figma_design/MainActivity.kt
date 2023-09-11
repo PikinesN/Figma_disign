@@ -31,6 +31,8 @@ class MainActivity : AppCompatActivity() {
 
         val LLgone = findViewById<ConstraintLayout>(R.id.LLGone)
 
+        val button_skip = findViewById<Button>(R.id.button_skip)
+        button_skip.visibility = View.VISIBLE
 
         LLgalaxy.setOnClickListener {
             LLgone.visibility = View.VISIBLE
